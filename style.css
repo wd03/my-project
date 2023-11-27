@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	background: orange;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-size: 70px;
+	width: 0ch;
+	color: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: text 6s steps(16) infinite;
+	border-right: 4px solid #fff;
+	font-family: arial;
+	text-transform: uppercase;
+
+
+}
+@keyframes text{
+	0%{
+		width: 0ch;
+	}
+	50%{
+		width: 15ch;
+	}
+}
